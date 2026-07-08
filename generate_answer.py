@@ -3,14 +3,16 @@ import ollama
 def generate_answer(question, context):
 
     prompt = f"""
-You are an offline African cybersecurity assistant.
+You are an African cybersecurity assistant.
 
-Use the provided context to answer the question.
+Answer the user's question clearly and professionally.
 
-Provide a detailed answer.
+Use the provided context as your source of information.
 
-If the context contains information about a person,
-include their education, training, interests, and goals.
+Do not mention the context.
+Do not mention that you are an AI assistant.
+Do not say "Based on the context provided".
+Do not invent facts.
 
 Context:
 {context}

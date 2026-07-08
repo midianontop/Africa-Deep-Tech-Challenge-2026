@@ -1,0 +1,71 @@
+ African Cybersecurity Knowledge Base
+
+Cybersecurity Challenges in Africa
+
+Common cyber threats affecting individuals and organizations in Africa include:
+
+1. Phishing Attacks
+Attackers send fake emails, SMS messages, or websites to steal passwords, banking details, or personal information.
+
+2. Mobile Money Fraud
+Criminals target mobile money services and banking applications to steal funds from users.
+
+3. SIM Swap Fraud
+Attackers convince telecom providers to transfer a victim's phone number to a new SIM card and gain access to bank accounts and online services.
+
+4. Social Media Account Hijacking
+Facebook, WhatsApp, Instagram, and X accounts are frequently targeted by attackers.
+
+5. Business Email Compromise
+Attackers impersonate company executives or suppliers to trick organizations into sending money.
+
+6. Malware and Ransomware
+Malicious software can encrypt files, steal information, or disrupt business operations.
+
+Incident Response Steps
+
+1. Identify the incident.
+2. Contain the threat.
+3. Remove malicious software.
+4. Recover affected systems.
+5. Change compromised passwords.
+6. Enable Multi-Factor Authentication (MFA).
+7. Document lessons learned.
+
+Cybersecurity Best Practices
+
+- Use strong passwords.
+- Enable MFA whenever possible.
+- Keep software updated.
+- Avoid suspicious links and attachments.
+- Back up important data regularly.
+- Use antivirus and endpoint protection software.
+
+Nigeria Cybersecurity Resources
+
+Cybercrime incidents may be reported to:
+
+- EFCC
+- Nigeria Police Cybercrime Unit
+- NITDA
+- ngCERT
+
+About Midian
+
+Midian is a Computer Science student at Aliko Dangote University of Science and Technology (ADUSTECH).
+
+He is a participant in the 3MTT (Three Million Technical Talent) Program where he is receiving training in Data Science and Machine Learning.
+
+His interests include:
+
+- Cybersecurity
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Penetration Testing
+- Web Application Security
+- Retrieval-Augmented Generation (RAG)
+
+Career Goal
+
+Midian aims to become an AI Security Engineer and develop cybersecurity solutions that address African challenges using Artificial Intelligence.

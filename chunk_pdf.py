@@ -1,21 +1,53 @@
+import os
+import json
 from pypdf import PdfReader
 
-reader = PdfReader("OWASP_Testing_Guide_v4.pdf")
+DOCUMENTS_FOLDER = "documents"
 
-text = ""
+all_chunks = []
 
-for page in reader.pages:
-    text += page.extract_text() + "\n"
+chunk_size = 200
 
-chunk_size = 500
 
-chunks = []
+for filename in os.listdir(DOCUMENTS_FOLDER):
 
-for i in range(0, len(text), chunk_size):
-    chunk = text[i:i + chunk_size]
-    chunks.append(chunk)
+    filepath = os.path.join(DOCUMENTS_FOLDER, filename)
 
-print("Total Chunks:", len(chunks))
+    print(f"Processing: {filename}")
 
-print("\nFirst Chunk:\n")
-print(chunks[0])
+    text = ""
+
+    # PDF FILES
+    if filename.endswith(".pdf"):
+
+        reader = PdfReader(filepath)
+
+        for page in reader.pages:
+
+            page_text = page.extract_text()
+
+            if page_text:
+                text += page_text + "\n"
+
+    # TXT FILES
+    elif filename.endswith(".txt"):
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+
+    else:
+        continue
+
+    words = text.split()
+
+    for i in range(0, len(words), chunk_size):
+
+        chunk = " ".join(words[i:i + chunk_size])
+
+        all_chunks.append(chunk)
+
+with open("documents/chunks.json", "w", encoding="utf-8") as f:
+
+    json.dump(all_chunks, f, indent=2)
+
+print(f"\nSaved {len(all_chunks)} chunks")

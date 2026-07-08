@@ -1,27 +1,19 @@
+ Midian is a cybersecurity analyst and AI enthusiast studying Computer Science at Aliko Dangote University of Science and Technology (ADUSTECH). He trains in Data Science and Machine Learning through the 3MTT (Three Million Technical Talent) program and aims to become an AI Security Engineer building AI and cybersecurity solutions for Africa.
+
+Midian is a Computer Science student at Aliko Dangote University of Science and Technology (ADUSTECH), combining academic learning with hands-on training in data science, machine learning, and cybersecurity. As a participant in the 3MTT (Three Million Technical Talent) program, he is expanding his expertise in practical ML workflows, model evaluation, and data-driven security analytics.
+
+His technical interests include cybersecurity, artificial intelligence, machine learning, data science, penetration testing, web application security, and Retrieval-Augmented Generation (RAG) systems. Current projects include a Cybersecurity RAG Assistant and a submission to the Africa Deep Tech Challenge 2026, where he’s applying ML and security techniques to real-world problems.
+
+Midian’s career goal is to become an AI Security Engineer focused on designing robust AI systems and security solutions tailored to the African technology landscape. He is eager to collaborate on projects that bridge AI innovation with practical cybersecurity needs.
+
 Name: Midian
 
-About:
-Midian is a cybersecurity analyst, AI enthusiast, and aspiring AI Security Engineer.
+Current role: Computer Science student, ADUSTECH; Cybersecurity analyst and AI enthusiast
 
-Education:
-Midian is a student at Aliko Dangote University of Science and Technology (ADUSTECH).
+Professional development: Trainee, 3MTT (Three Million Technical Talent) — Data Science & Machine Learning
 
-Professional Development:
-Midian is a participant in the 3MTT (Three Million Technical Talent) Program, where he is receiving training in Data Science and Machine Learning.
+Technical interests: Cybersecurity, AI, Machine Learning, Data Science, Penetration Testing, Web App Security, RAG systems
 
-Technical Interests:
-- Cybersecurity
-- Artificial Intelligence
-- Machine Learning
-- Data Science
-- Penetration Testing
-- Web Application Security
-- RAG Systems
+Current projects: Cybersecurity RAG Assistant; Africa Deep Tech Challenge 2026 project
 
-Current Projects:
-- Cybersecurity RAG Assistant
-- Africa Deep Tech Challenge 2026 Project
-
-Career Goals:
-- Become an AI Security Engineer
-- Build AI and cybersecurity solutions for Africa
+Career objective: Become an AI Security Engineer; build AI and cybersecurity solutions for Africa.
