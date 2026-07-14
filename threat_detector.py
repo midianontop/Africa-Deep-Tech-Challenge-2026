@@ -34,6 +34,7 @@ def detect_threat(text):
         "instagram hacked",
         "account hacked",
         "email hacked"
+        "phone hacked"
     ]):
         return "Account Compromise", "High"
 
