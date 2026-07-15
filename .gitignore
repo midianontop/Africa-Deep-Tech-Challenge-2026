@@ -1,12 +1,16 @@
-# Virtual Environment
+ # Python environment
 venv/
 
-# Python Cache
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Runtime Logs
-incident_logs.json
-
-# Environment Variables
+# Environment variables
 .env
+
+# IDE files
+.vscode/
+
+# Logs
+*.log
